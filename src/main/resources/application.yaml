@@ -1,0 +1,15 @@
+
+
+chat-gpt:
+  baseUrl: https://api.openai.com/v1/completions
+  key: key-test
+  mealTemplate: "I would like to have a meal plan of %s calories"
+  workoutTemplate: "Create a workout for my %s"
+
+
+spring:
+  main:
+    banner-mode: off
+logging:
+  level:
+    root: off
