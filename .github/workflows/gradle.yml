@@ -26,4 +26,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: shell-${{ matrix.os }}-${{ matrix.version }}
-          path: target/shell
+          path: build/native/nativeCompile
