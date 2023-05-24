@@ -19,7 +19,7 @@ jobs:
 
       - name: Build shell
         run: |
-          ./gradlew clean nativeImage
+          ./gradlew clean nativeCompile
         if: runner.os != 'Windows'
 
       - name: Upload binary
