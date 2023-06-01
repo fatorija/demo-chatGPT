@@ -2,7 +2,7 @@
 
 chat-gpt:
   baseUrl: https://api.openai.com/v1/completions
-  key: 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
+  key: valid-key
   mealTemplate: "I would like to have a meal plan of %s calories"
   workoutTemplate: "Create a workout for my %s"
 
